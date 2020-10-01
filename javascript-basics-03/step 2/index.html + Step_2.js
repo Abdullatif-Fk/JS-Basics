@@ -1,12 +1,12 @@
 function ShowHide(){
-    var show=document.getElementById("hide")
-    show.onclick=function () {
+    var hide =document.getElementById("hide")
+    hide.onclick=function () {
         document.getElementById("texte").style.display="none";
         
     }
     
-   var hide=document.getElementById("show")
-   hide.onclick=function () {
+   var show=document.getElementById("show")
+   show.onclick=function () {
        document.getElementById("texte").style.display="block";
        
    }
